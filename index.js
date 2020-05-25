@@ -28,8 +28,8 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
-  const [meow,haahee,meeeah,khaa,qeaqeq]='cow horse sheep pig chicken'.split(' ');
-  console.log(meow,haahee,meeeah,khaa,qeaqeq);
+  const [moo,neigh,baa,oink,cluck]='cow horse sheep pig chicken'.split(' ');
+  console.log(moo,neigh,baa,oink,cluck);
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 const [Bessie, ,Dolly,Babe,Little] ='cow horse sheep pig chicken'.split(' ');
