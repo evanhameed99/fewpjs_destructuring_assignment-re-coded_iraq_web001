@@ -28,6 +28,8 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+  const [meow,haahee,meeeah,khaa,qeaqeq]='cow horse sheep pig chicken'.split(' ');
+  console.log(meow,haahee,meeeah,khaa,qeaqeq);
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 
@@ -39,7 +41,7 @@ const k_muppet = {
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
-// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 
 // Objects
 
